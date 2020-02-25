@@ -1,0 +1,106 @@
+#container{
+  width: 120px;
+  background: black;
+  margin: 0 auto;
+  border-radius: 10px;
+  
+}
+
+#container2{
+  background: black;
+  border-radius: 10px;
+  width:120px;
+  margin: 0 auto;
+}
+
+.icon{
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  background: white ;
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+  border-right: 5px solid black;
+  border-left: 5px solid black;
+  border-radius: 50%;
+  animation:spin 2s linear infinite;
+}
+
+.icon-rock{
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  background: ;
+  border-top: 5px solid black;
+  border-bottom: 5px solid white;
+  border-right: 5px solid white;
+  border-left: 5px solid white;
+  border-radius: 50%;
+  animation:rock 4s linear infinite;
+}
+
+.icon2{
+  width: 8px;
+  height: 8px;
+  margin: 0 auto;
+  background: darkred;
+  border-radius: 50%;
+   border-top: 1px solid darkred;
+  border-bottom: 1px solid darkred;
+  border-right: 1px solid darkred;
+  border-left: 1px solid darkred;
+}
+
+.icon3{
+  width: 8px;
+  height: 8px;
+  margin: 0 auto;
+  background: darkred;
+  border-radius: 50%;
+   border-top: 1px solid darkred;
+  border-bottom: 1px solid darkred;
+  border-right: 1px solid darkred;
+  border-left: 1px solid darkred;
+}
+
+#loader{
+  height: 100px;
+  width: 100px;
+  border: 15px solid lightgray;
+  border-top-color: skyblue;
+  border-bottom-color: skyblue;
+  border-radius: 50%;
+  margin: auto;
+  margin-top: 25px;
+  animation: spin 2s infinite linear;
+}
+
+@keyframes spin {
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rock {
+  0%{
+    transform: rotate(90deg);
+  }
+  50%{
+    transform: rotate(270deg);
+  }
+  100%{
+    transform: rotate(90deg)
+  }
+}
+
+@keyframes spin {
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg)
+  }
+}
